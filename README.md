@@ -5,6 +5,13 @@ MonkeyConfig is a simple configuration library for user scripts. It allows for
 easy creation of configuration dialog windows and takes care of storing and
 retrieving the configuration parameters for the script.
 
+Fork from: [odyniec](https://github.com/odyniec/MonkeyConfig)
+
+Update
+------
+
+* Adjuste the style of config dialog, make it more modern.
+
 Usage Example
 -------------
 
@@ -14,7 +21,7 @@ the metadata section:
 ```javascript
 // ==UserScript==
 // @name           AwesomeScript
-// @require        https://raw.github.com/odyniec/MonkeyConfig/master/monkeyconfig.js
+// @require        https://raw.githubusercontent.com/ncwhale/MonkeyConfig/master/monkeyconfig.js
 ```
 
 Then, call `MonkeyConfig()` to construct your configuration object:
